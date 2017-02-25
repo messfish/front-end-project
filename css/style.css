@@ -1,0 +1,26 @@
+.header.img {
+	width: 50px;
+	height: 50px;
+}
+
+@media screen and (min-width: 400px) {
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.header.img {
+		width: 10%;
+	}
+
+	.flex-item {
+		text-align: center;
+	}	
+
+}
+
+h1 {
+	color: blue;
+	font-family:verdana;
+	text-align: center;
+}
